@@ -20,65 +20,71 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Adhish Thite",
+  initials: "AT",
+  location: "Pune, India 🇮🇳",
+  locationLink: "https://www.google.com/maps/place/Pune",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Machine Learning Engineer",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "I'm an engineer with over 9 years of experience under my belt, especially passionate about AI and Machine Learning for the past 6 years. I love diving into new challenges and have a knack for coming up with unique solutions that blend tech and creativity. Whether it's making things more efficient, secure, or just plain better, I'm all about using data and advanced tech to make a real difference. I've led some cool projects and always enjoy working with a team to bring great ideas to life.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "jobs.adhish@gmail.com",
+    tel: "+919209244552",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/adhishthite",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/adhish-thite/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/tweetadhish",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of North Carolina at Charlotte 🇺🇸",
+      degree: "Master of Science (MS) in Computer Science",
+      start: "2017",
+      end: "2019",
     },
+    {
+      school: "University of Pune 🇮🇳",
+      degree: "Bachelor of Engineering (BE) in Computer Engineering",
+      start: "2010",
+      end: "2014",
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "SynapseFi",
+      link: "https://synapsefi.com",
+      badges: ["San Francisco, CA", "Remote since 2022"],
+      title: "Senior Machine Learning Engineer",
       logo: ParabolLogo,
-      start: "2021",
+      start: "2019",
       end: "2024",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Gemini Data Inc.",
+      link: "https://clevehttps://www.geminidata.com/rtech.biz",
+      badges: ["San Francisco, CA"],
+      title: "Data Scientist",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2019",
+      end: "2019",
       description:
         "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
     },
@@ -105,13 +111,14 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "Natural Language Processing",
+    "Generative AI",
+    "Amazon Web Services (AWS)",
+    "Google Cloud Platform (GCP)",
   ],
   projects: [
     {
